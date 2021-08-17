@@ -1,0 +1,11 @@
+3.Faça um Programa que verifique se uma letra digitada é "F" ou "M".
+ Conforme a letra escrever: F - Feminino, M - Masculino, Sexo Inválido.
+
+ sexo = input("digite F para feminino, ou M para masculino: ")
+
+if sexo == "F":
+    print("opção escolhida como sexo feminino")
+elif sexo == "M":
+    print("opção escolhida como sexo masculino")
+else:
+    print("opção inválida.")

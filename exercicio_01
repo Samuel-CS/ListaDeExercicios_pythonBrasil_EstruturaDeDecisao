@@ -1,0 +1,11 @@
+1.Faça um Programa que peça dois números e imprima o maior deles.
+
+x = int(input("digite um número: "))
+y = int(input("digite mais um número: "))
+
+if x > y:
+    print(x)
+elif y > x:
+    print(y)
+else:
+    print(f"{x} é igual a {y}")
